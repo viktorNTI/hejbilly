@@ -16,5 +16,5 @@ while meny !=3:
     elif meny == 2:
         f = open('log.txt', 'w+')
         message = (input("Skriv till loggen"))
-        f.write(message)   
+        f.write(message)     
         f.close() 
