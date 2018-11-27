@@ -11,5 +11,10 @@ while meny !=3:
         f = open('log.txt', 'r')
         for line in f:
             print(line)
-    f.close()
+        f.close()
 
+    elif meny == 2:
+        f = open('log.txt', 'w+')
+        message = (input("Skriv till loggen"))
+        f.write(message)   
+        f.close() 
